@@ -491,6 +491,8 @@ text-align: center;
 justify-content: center;
   align-items: center;
 }
+.button-sub:hover,
+.button-sub:focus{background-color: #31d0aa;}
 .input-mail{
 
   background-color: transparent; ;
@@ -500,6 +502,10 @@ width: 264px;
 height: 40px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 padding: 8px 16px;
+}
+.input-mail:focus{
+  outline: none;
+  border-color: #31D0AA;
 }
 
 .input-mail::placeholder{
