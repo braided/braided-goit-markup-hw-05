@@ -373,10 +373,6 @@ address {
 .social-link:focus {
   background-color: #404bbf;
 }
-.footer-socials {
-  display: flex;
-  flex-direction: column;
-}
 
 .footer-socials .social-link {
   display: flex;
@@ -412,7 +408,7 @@ address {
 .footer-socials {
   display: flex;
   flex-direction: column;
-  margin-right: 80px;
+  margin-right: auto;
 }
 
 .footer-left {
@@ -599,6 +595,7 @@ address {
   position: relative;
 }
 .input-icons {
+  
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding-left: 38px;
@@ -609,6 +606,7 @@ address {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .m-icon {
+  fill: #2e2f42;
   position: absolute;
   top: 50%;
   left: 16px;
@@ -636,7 +634,7 @@ address {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
+  color: #2e2f4266;
 }
 .checkbox-group {
   display: flex;
@@ -693,7 +691,6 @@ address {
   min-width: 169px;
   height: 56px;
   margin: 0 auto;
-  padding: 0;
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
